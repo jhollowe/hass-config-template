@@ -1,0 +1,17 @@
+### http.yaml
+
+base_url: !secret base_url
+server_port: 8123
+
+
+#=====SSL=====#
+#ssl_certificate: /ssl/fullchain.pem
+#ssl_key: /ssl/privkey.pem
+
+
+#=====PROXY=====#
+use_x_forwarded_for: true #requires `trusted_proxies`
+trusted_proxies:
+  - 10.0.0.4
+
+# security found in security.yaml

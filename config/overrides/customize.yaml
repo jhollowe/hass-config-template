@@ -1,0 +1,5 @@
+### customize.yaml
+# Used to override values for specific entities e.g.
+#   switch.wemo_switch_2:
+#     friendly_name: Kitchen kettle
+#     icon: mdi:kettle

@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+
+# Python cache
+__pycache__
+*.pyc
+
+# Temporary Storage
+tts
+deps
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+
+# Sensitive
+secrets.yaml
+ip_bans.yaml
+known_devices.yaml
+home-assistant.env
+home-assistant.*
+
+.cloud
+.storage
