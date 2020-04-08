@@ -1,4 +1,4 @@
 ### customize_glob.yaml
-# Used to override values for entities specified by a globe.g.
+# Used to override values for entities specified by a glob e.g.
 #   switch.internal_*:
 #     hidden: true
